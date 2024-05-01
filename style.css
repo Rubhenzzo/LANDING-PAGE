@@ -1,3 +1,5 @@
+/*El motivo por el que hay mas fonts es por que queria haber hecho un experimento en el apartado quien soy, pero no me dio tiempo*/
+
 @import url('https://fonts.googleapis.com/css2?family=Bungee+Spice&family=Darumadrop+One&family=Honk&family=Open+Sans:ital,wght@0,600;1,600&family=Teko:wght@300..700&display=swap');
 *{
     margin:0px;
@@ -262,3 +264,37 @@ height: 80vh;
     border-radius: 20px;
     transition: 1s;
 }
+
+/*CV*/
+
+.CV li{
+    
+    right: 0px;
+    bottom: 0px;
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+    padding: 0 100px 30px;
+    list-style: none;
+}
+.CV li h1{
+    font-size: 1em;
+    text-transform: uppercase;
+    color: #fff;
+}
+.CV li h1:hover{
+    color: #fff;
+    background: hsl(182, 25%, 50%);
+    transition: 1s;
+}
+.cv li p{
+    font-size: 0.8em;
+    line-height: 1.5;
+    color: #fff;
+    padding-top: 5px;
+    font-family: "Open Sans", sans-serif;
+    font-weight: 300;
+    font-style: italic;
+    margin-bottom: 20px;
+}
+
